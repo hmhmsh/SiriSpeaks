@@ -16,6 +16,7 @@
 		4DCC12C025B5B2EB005D0757 /* SpeechSynthesizerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12BF25B5B2EB005D0757 /* SpeechSynthesizerModel.swift */; };
 		4DCC12C625B5B3B3005D0757 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12C525B5B3B3005D0757 /* RateView.swift */; };
 		4DCC12CE25B5B481005D0757 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12CD25B5B481005D0757 /* LanguageView.swift */; };
+		4DCC12D625B5B52D005D0757 /* PlayControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12D525B5B52D005D0757 /* PlayControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4DCC12BF25B5B2EB005D0757 /* SpeechSynthesizerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerModel.swift; sourceTree = "<group>"; };
 		4DCC12C525B5B3B3005D0757 /* RateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
 		4DCC12CD25B5B481005D0757 /* LanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		4DCC12D525B5B52D005D0757 /* PlayControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				4DCC128625B5AEA6005D0757 /* ContentView.swift */,
+				4DCC12D525B5B52D005D0757 /* PlayControlView.swift */,
 				4DCC12CD25B5B481005D0757 /* LanguageView.swift */,
 				4DCC12C525B5B3B3005D0757 /* RateView.swift */,
 			);
@@ -288,6 +291,7 @@
 				4DCC128725B5AEA6005D0757 /* ContentView.swift in Sources */,
 				4DCC12C025B5B2EB005D0757 /* SpeechSynthesizerModel.swift in Sources */,
 				4DCC128525B5AEA6005D0757 /* SiriSpeaksApp.swift in Sources */,
+				4DCC12D625B5B52D005D0757 /* PlayControlView.swift in Sources */,
 				4DCC12CE25B5B481005D0757 /* LanguageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
