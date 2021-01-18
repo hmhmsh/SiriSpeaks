@@ -9,7 +9,7 @@ import AVFoundation
 import Combine
 import Foundation
 
-class SpeechSynthesierModel: NSObject {
+class SpeechSynthesizerModel: NSObject {
     enum Language: String, CaseIterable, Identifiable {
         case Japanese = "ja-JP"
         case English = "en-US"
@@ -93,7 +93,7 @@ class SpeechSynthesierModel: NSObject {
     }
 }
 
-extension SpeechSynthesierModel: AVSpeechSynthesizerDelegate {
+extension SpeechSynthesizerModel: AVSpeechSynthesizerDelegate {
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didStart utterance: AVSpeechUtterance) {
         isSpeaking.send(true)
     }
