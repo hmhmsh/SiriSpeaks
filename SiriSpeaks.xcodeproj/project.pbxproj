@@ -13,6 +13,7 @@
 		4DCC128C25B5AEA9005D0757 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC128B25B5AEA9005D0757 /* Preview Assets.xcassets */; };
 		4DCC129725B5AEA9005D0757 /* SiriSpeaksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC129625B5AEA9005D0757 /* SiriSpeaksTests.swift */; };
 		4DCC12A225B5AEA9005D0757 /* SiriSpeaksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12A125B5AEA9005D0757 /* SiriSpeaksUITests.swift */; };
+		4DCC12C025B5B2EB005D0757 /* SpeechSynthesizerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12BF25B5B2EB005D0757 /* SpeechSynthesizerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4DCC129D25B5AEA9005D0757 /* SiriSpeaksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriSpeaksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCC12A125B5AEA9005D0757 /* SiriSpeaksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriSpeaksUITests.swift; sourceTree = "<group>"; };
 		4DCC12A325B5AEA9005D0757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCC12BF25B5B2EB005D0757 /* SpeechSynthesizerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				4DCC128425B5AEA6005D0757 /* SiriSpeaksApp.swift */,
 				4DCC128625B5AEA6005D0757 /* ContentView.swift */,
+				4DCC12B525B5B25B005D0757 /* Model */,
 				4DCC128825B5AEA9005D0757 /* Assets.xcassets */,
 				4DCC128D25B5AEA9005D0757 /* Info.plist */,
 				4DCC128A25B5AEA9005D0757 /* Preview Content */,
@@ -128,6 +131,14 @@
 				4DCC12A325B5AEA9005D0757 /* Info.plist */,
 			);
 			path = SiriSpeaksUITests;
+			sourceTree = "<group>";
+		};
+		4DCC12B525B5B25B005D0757 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DCC12BF25B5B2EB005D0757 /* SpeechSynthesizerModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCC128725B5AEA6005D0757 /* ContentView.swift in Sources */,
+				4DCC12C025B5B2EB005D0757 /* SpeechSynthesizerModel.swift in Sources */,
 				4DCC128525B5AEA6005D0757 /* SiriSpeaksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
