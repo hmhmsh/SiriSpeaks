@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = ContentViewModel()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            TextEditor(text: $viewModel.text)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.purple, lineWidth: 5)
+                )
+                .padding()
+
+            PlayControlView(
+                action: viewModel.playStopAction,
+                synthesizerIsSpeacking: viewModel.synthesizerIsSpeacking,
+                rate: $viewModel.rate,
+                language: $viewModel.language
+            )
+        }
     }
 }
 
