@@ -17,6 +17,7 @@
 		4DCC12C625B5B3B3005D0757 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12C525B5B3B3005D0757 /* RateView.swift */; };
 		4DCC12CE25B5B481005D0757 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12CD25B5B481005D0757 /* LanguageView.swift */; };
 		4DCC12D625B5B52D005D0757 /* PlayControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12D525B5B52D005D0757 /* PlayControlView.swift */; };
+		4DCC12DF25B5B5D9005D0757 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC12DE25B5B5D9005D0757 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4DCC12C525B5B3B3005D0757 /* RateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
 		4DCC12CD25B5B481005D0757 /* LanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
 		4DCC12D525B5B52D005D0757 /* PlayControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayControlView.swift; sourceTree = "<group>"; };
+		4DCC12DE25B5B5D9005D0757 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				4DCC128425B5AEA6005D0757 /* SiriSpeaksApp.swift */,
 				4DCC12C425B5B398005D0757 /* View */,
+				4DCC12DD25B5B5C2005D0757 /* ViewModel */,
 				4DCC12B525B5B25B005D0757 /* Model */,
 				4DCC128825B5AEA9005D0757 /* Assets.xcassets */,
 				4DCC128D25B5AEA9005D0757 /* Info.plist */,
@@ -156,6 +159,14 @@
 				4DCC12C525B5B3B3005D0757 /* RateView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4DCC12DD25B5B5C2005D0757 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4DCC12DE25B5B5D9005D0757 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				4DCC12C625B5B3B3005D0757 /* RateView.swift in Sources */,
 				4DCC128725B5AEA6005D0757 /* ContentView.swift in Sources */,
 				4DCC12C025B5B2EB005D0757 /* SpeechSynthesizerModel.swift in Sources */,
+				4DCC12DF25B5B5D9005D0757 /* ContentViewModel.swift in Sources */,
 				4DCC128525B5AEA6005D0757 /* SiriSpeaksApp.swift in Sources */,
 				4DCC12D625B5B52D005D0757 /* PlayControlView.swift in Sources */,
 				4DCC12CE25B5B481005D0757 /* LanguageView.swift in Sources */,
